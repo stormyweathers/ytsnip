@@ -8,11 +8,11 @@ usage:
    ytsnip.sh <URL> <Start_Time> <End_Time> <OUTPUT>
    For audio only:
    ytsnip_audio.sh <URL> <Start_Time> <End_Time> <OUTPUT>
-
 timestamps should be formatted as
    hh:mm:ss or mm:ss
+Example:
+   >ytsnip_audio.sh https://www.youtube.com/watch?v=DXmngpprhVY   1:50 1:58 rusty
 
-
+Curently, the audio script outputs in mp3 format, and the video script outputs in mkv format.
 
 The output directory is hardcoded in both scripts, so you should change that to suit your needs.
-Curently, the audio script outputs in mp3 format, and the video script outputs in mkv format.
